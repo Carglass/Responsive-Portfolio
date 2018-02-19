@@ -343,3 +343,13 @@
 {
     color: #aaaaaa;
 }
+
+@media screen and (max-width: 768px){
+    .sm-w-100{
+        width:100%;
+    }
+
+    .sm-wrap{
+        flex-wrap: wrap;
+    }
+}
