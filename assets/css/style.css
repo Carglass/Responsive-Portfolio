@@ -348,7 +348,7 @@
     color: #aaaaaa;
 }
 
-@media screen and (max-width: 960px){
+@media screen and (max-width: 980px){
     .md-w-100{
         width:100%;
     }
@@ -369,6 +369,14 @@
 
     .sm-wrap{
         flex-wrap: wrap;
+    }
+
+    .sm-jc-ar{
+        justify-content: space-around;
+    }
+    
+    .sm-mt-20px{
+        margin-top: 20px;
     }
 }
 
@@ -399,5 +407,26 @@
 
     .xs-jc-c{
         justify-content: center;
+    }
+
+    .xs-ta-c{
+        text-align: center;
+    }
+
+    .xs-mt-20px{
+        margin-top: 20px;
+    }
+
+    /* placed before other margins, as it acts as a reset */
+    .xs-m-0{
+        margin:0;
+    }
+
+    .xs-mb-20px{
+        margin-bottom: 20px;
+    }
+    
+    .xs-d-b{
+        display: block;
     }
 }
