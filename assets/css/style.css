@@ -93,6 +93,10 @@
     width: 65%;
 }
 
+.w-80{
+    width: 80%;
+}
+
 /* I used percentage instead of pixels for section and aside as it can scale down on smaller screens */
 
 .w-80
